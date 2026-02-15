@@ -128,7 +128,16 @@ To setup the repository locally follow the steps mentioned below:
    bench --site erpnext.localhost install-app erpnext
    ```
 
-4. Open the URL `http://erpnext.localhost:8000/app` in your browser, you should see the app running
+4. (India) Install India Compliance for GST / e-Invoice / e-Way Bill workflows
+   ```
+   # Get the India Compliance app
+   bench get-app https://github.com/resilient-tech/india-compliance
+
+   # Install the app
+   bench --site erpnext.localhost install-app india_compliance
+   ```
+
+5. Open the URL `http://erpnext.localhost:8000/app` in your browser, you should see the app running
 
 ## Learning and community
 
