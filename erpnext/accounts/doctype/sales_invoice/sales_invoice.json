@@ -1,7 +1,6 @@
 {
  "actions": [],
  "allow_import": 1,
- "allow_rename": 1,
  "autoname": "naming_series:",
  "creation": "2022-01-25 10:29:57.771398",
  "doctype": "DocType",
@@ -218,16 +217,17 @@
   "column_break_140",
   "to_date",
   "update_auto_repeat_reference",
+  "utm_analytics_section",
+  "utm_source",
+  "utm_medium",
+  "column_break_ixxw",
+  "utm_campaign",
+  "utm_content",
   "more_information",
   "status",
   "remarks",
   "customer_group",
   "column_break_imbx",
-  "utm_source",
-  "utm_campaign",
-  "utm_medium",
-  "utm_content",
-  "col_break23",
   "is_internal_customer",
   "represents_company",
   "inter_company_invoice_reference",
@@ -1632,13 +1632,6 @@
    "read_only": 1
   },
   {
-   "fieldname": "col_break23",
-   "fieldtype": "Column Break",
-   "hide_days": 1,
-   "hide_seconds": 1,
-   "width": "50%"
-  },
-  {
    "default": "Draft",
    "fieldname": "status",
    "fieldtype": "Select",
@@ -2304,6 +2297,16 @@
    "oldfieldtype": "Section Break",
    "options": "fa fa-group",
    "print_hide": 1
+  },
+  {
+   "fieldname": "column_break_ixxw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "utm_analytics_section",
+   "fieldtype": "Section Break",
+   "label": "UTM Analytics"
   }
  ],
  "grid_page_length": 50,
@@ -2317,7 +2320,7 @@
    "link_fieldname": "consolidated_invoice"
   }
  ],
- "modified": "2026-02-05 20:43:44.732805",
+ "modified": "2026-02-10 11:59:07.819903",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Sales Invoice",
